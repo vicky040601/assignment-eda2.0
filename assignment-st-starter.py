@@ -10,7 +10,7 @@ sns.set()
 
 # show the title
 
-st.title('Your Full Name - Titanic Data Analysis')
+st.title('Titanic App by Han Cai')
 
 # read csv and show the dataframe
 df = pd.read_csv('train.csv')
