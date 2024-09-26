@@ -14,7 +14,7 @@ st.title('Titanic App by Han Cai')
 
 # read csv and show the dataframe
 df = pd.read_csv('train.csv')
-st.write(df.head())
+st.write(df.head(10))
 
 
 # create a figure with three subplots, size should be (15, 5)
